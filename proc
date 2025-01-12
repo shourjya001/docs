@@ -1,0 +1,28 @@
+if (Screditfile type -- "26') l
+new 2
+×
+dhe procs
+dbe proc batch
+SP
+_CREDITLINE0095.sql
+// Run both stored procedures
+echo Squery Line = "SELECT * FROM dbo. \"SPU TSPMCURDBE\" ('". $sub group code."'
+"-SScurr."',
+". Stxtrate.", '".$codUsr."'
+-$lastComment."'
+, '".$CF_Level."1
+Sresult Line - pg query (Squery Line) ;
+Sresult Line2 = 1;
+if(Scod withlimit == '1'){
+echo $query_Line2 = "SELECT * FROM dbo. \ "SPU_LIMITS_TLINERIADBE\"
+('".$sub group code."', "-$creditfile_type."
+, "- ScodUsr.") ";
+Sresult Line2 = pg_query ($query_Line2) ;
+Jelsel
+Sresult_Line2 - 0;
+-$creditfile_type.")";
+if (Sresult Line && $result Line2) i echo '("id": "success"}';
+1 else l
+echo '("id": "fail"}';
+I
+else
